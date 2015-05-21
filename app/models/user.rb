@@ -4,8 +4,9 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-  # Jason adds this in, but my web app worked without it. Different versions? 
-  #attr_accessible :email, :password, :password_confirmation, :remeber_me,
-  #								:first_name, :last_name, :profile_name
+ has_many :statuses
 
+ def full_name
+ 	first_name + " " + last_name
+ end
 end
