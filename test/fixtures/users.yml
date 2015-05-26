@@ -3,3 +3,9 @@ landall:
   last_name: "Proctor"
   email: "landallproctor@email.com"
   profile_name: "landallproctor"
+
+jim:
+	first_name: "Jim"
+	last_name: "Henderson"
+	email: "jimhenderson@email.com"
+	profile_name: "jimhenderson"
