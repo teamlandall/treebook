@@ -1,28 +1,34 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails application that mimic's a basic social media site like Facebook. 
 
-Things you may want to cover:
+Key skills learned: 
 
-* Ruby version
+- Scaffolding to set up the bones of the applicatoin. 
 
-* System dependencies
+- Twitter Bootstrap. 
 
-* Configuration
+- Devise for building the authentication system.
 
-* Database creation
+- Used test driven development methods to ensure the application worked as expected.
 
-* Database initialization
+- Uses flash messages and customized routes. 
 
-* How to run the test suite
+- Added code for Gravatars. 
 
-* Services (job queues, cache servers, search engines, etc.)
+- Depolyed through Heroku.
 
-* Deployment instructions
+Next steps: 
 
-* ...
+- Clean up some of the CSS. My bootstrap didn't match the one in the video so some of the styling doesn't look as clean. 
 
+- Currently I have the code for Gravatars written but commented out because if the user doesn't have a gravatars account associated with the same email, it gives an error. A fix would be to write a conditional that checks for a Gravatar account, if one does not exist, it posts some sort of generic image like facebook does. 
+
+- Create fields for additional info about the person so more is displayed than just their status updates.
+
+To current state of the application can be seen at this link: 
+
+https://aqueous-tor-2479.herokuapp.com/
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
