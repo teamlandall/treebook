@@ -30,5 +30,3 @@ To current state of the application can be seen at this link:
 
 https://aqueous-tor-2479.herokuapp.com/
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
