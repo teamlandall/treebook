@@ -20,4 +20,15 @@ class User < ActiveRecord::Base
  def full_name
  	first_name + " " + last_name
  end
+
+ # Creates method to call gravatar for users who have a gravatar account. 
+ # Commenting out because my fake users don't have gravatar accounts it
+ # throws and error when the program tries to find them.
+ # def gravatar_url
+ #	stripped_email = email.stripped_email
+ #	downcased_email = stripped_email.downcased_email
+ #	hash = Digest::MD5.hexdigest(downcased_email)
+ #
+ #	"http://gravatar.com/avatar/#{hash}"
+ # end
 end
